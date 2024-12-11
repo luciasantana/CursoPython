@@ -22,9 +22,9 @@ copia_superficial = empleados.copy()
 copia_profunda = copy.deepcopy(empleados)
 
 #Modificar habilidades de empleados
-empleados[1][1].append("JavaScript")
-empleados[1][2].append("Inteligencia Artificial")
-empleados[2][0].append("Python")
+empleados[0][1].append("JavaScript")
+empleados[1][1].append("Inteligencia Artificial")
+empleados[2][1].append("Python")
 
 #Mostrar la nueva lista
 print ("\nLista después de modificar las habilidades de los empleados: ")
